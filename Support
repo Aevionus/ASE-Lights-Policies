@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ASE-Lights Support</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+    }
+    h1, h2 {
+      color: #111;
+    }
+    a {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>ASE-Lights Support</h1>
+
+  <p>
+    ASE-Lights helps users control WLED-compatible lighting devices on their local Wi-Fi network.
+  </p>
+
+  <h2>Contact Support</h2>
+
+  <p>
+    For support with ASE-Lights, please contact us at:
+  </p>
+
+  <p>
+    <strong><a href="mailto:info@aselights.com">info@aselights.com</a></strong>
+  </p>
+
+  <p>
+    When contacting support, please include your device type, iOS or Android version, app version,
+    and a brief description of the issue you are experiencing.
+  </p>
+
+  <h2>Common Troubleshooting</h2>
+
+  <h3>Device Discovery Issues</h3>
+
+  <p>
+    If ASE-Lights cannot find your WLED device, please try the following:
+  </p>
+
+  <ul>
+    <li>Ensure your phone and WLED controller are connected to the same Wi-Fi network.</li>
+    <li>Ensure the WLED controller is powered on.</li>
+    <li>Confirm that Local Network permission is enabled for ASE-Lights in your device settings.</li>
+    <li>Restart the ASE-Lights app and try discovery again.</li>
+    <li>Restart your WLED controller and router if the issue continues.</li>
+  </ul>
+
+  <h3>Unable to Control Lights</h3>
+
+  <p>
+    If your device is discovered but does not respond:
+  </p>
+
+  <ul>
+    <li>Confirm the WLED device is reachable on your local network.</li>
+    <li>Check that the WLED device has a valid IP address.</li>
+    <li>Make sure your phone is not connected to a guest network or VPN that blocks local devices.</li>
+    <li>Try opening the WLED device directly in a web browser using its local IP address.</li>
+  </ul>
+
+  <h3>Presets or Schedules Not Updating</h3>
+
+  <p>
+    If presets or schedules are not updating correctly:
+  </p>
+
+  <ul>
+    <li>Refresh the device in the app.</li>
+    <li>Confirm the WLED device is online.</li>
+    <li>Check that the preset exists on the WLED controller.</li>
+    <li>Restart the app and try again.</li>
+  </ul>
+
+  <h2>Privacy Policy</h2>
+
+  <p>
+    You can view the ASE-Lights Privacy Policy here:
+  </p>
+
+  <p>
+    <a href="https://aevionus.github.io/ASE-Lights-Policies/">
+      https://aevionus.github.io/ASE-Lights-Policies/
+    </a>
+  </p>
+
+  <h2>Compatibility</h2>
+
+  <p>
+    ASE-Lights is designed for use with WLED-compatible lighting controllers. Some features may depend
+    on the version of WLED installed on your controller and your local network configuration.
+  </p>
+
+</body>
+</html>
